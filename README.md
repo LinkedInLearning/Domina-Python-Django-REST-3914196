@@ -9,20 +9,42 @@ Consulta el archivo Readme en la rama main para obtener instrucciones e informac
 Aprende a crear API REST eficientes utilizando Django REST Framework (DRF), el framework más potente para el desarrollo backend en Python. Este curso te guía paso a paso en la creación de una API REST, mostrando cómo integrar y aprovechar al máximo las funcionalidades de Django y DRF. Ideal para desarrolladores que desean mejorar sus habilidades en la creación de servicios web escalables, descubrirás cómo manejar solicitudes HTTP, autenticación, serialización de datos y más, todo dentro de un entorno flexible y robusto.
 
 ## Instrucciones
-
-Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
-
-## Ramas
-
-Las ramas están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura es Capítulo#_Vídeo#. Por ejemplo, la rama denominada `02_03` corresponde al segundo capítulo y al tercer vídeo de ese capítulo. Algunas ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el mismo código que al principio del vídeo. La branch f tiene el mismo código que al final del vídeo. La rama master tiene el estado final del código que aparece en el curso.
+Este repositorio tiene un directorio con el nombre movies_api, donde encontrarás los archivos del proyecto de Django REST: los archivos de configuración y las aplicaciones. Por fuera del directorio del proyecto está el archivo `requirements.txt` con las dependencias requeridas para el correcto funcionamiento del proyecto.
 
 ## Instalación
 
 1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [software]
-
+   - Python 3.11
+   - Editor de código como VS Code o PyCharm
+   - Conda o miniconda para el manejo de ambientes virtuales
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. [Instrucciones específicas del curso].
+3. Crea un ambiente virtual de Python, puedes hacerlo con conda
+
+		conda install -n <nombre_ambiente> python=3.11
+
+4. Instala las librerías
+
+		pip install -r requirements.txt
+
+5. Ingresa al directorio del proyecto
+
+		cd movies_api
+
+6. Crea las migraciones
+
+		python manage.py makemigrations
+
+7. Aplica las migraciones
+
+		python manage.py migrate
+
+8. Crea un super usuario para el administrador
+
+		python manage.py createsuperuser
+
+9. Corre el proyecto
+
+		python manage.py runserver
 
 ### Docente
 
