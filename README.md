@@ -2,7 +2,7 @@
 
 Este es el repositorio del curso de LinkedIn Learning `Domina Python: Django REST`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![Nombre completo del curso][lil-thumbnail-url] 
+![Domina Python: Django REST][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -53,7 +53,7 @@ Este repositorio tiene un directorio con el nombre movies_api, donde encontrará
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ana-maria-pinto).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/domina-python-django-rest
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFhdVexFN6c_g/learning-public-crop_675_1200/B4EZWtZQQwG0Ac-/0/1742370834290?e=2147483647&v=beta&t=fYFlrJ4Nx5x7mf_vyThE68pRx1XbtPqJKAyag6qxpwo
 
 [1]: # (End of ES-Instruction ###############################################################################################)
